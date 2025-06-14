@@ -1,30 +1,39 @@
-🧠 Reinforcement Learning Projects
-This repository contains various Reinforcement Learning (RL) projects, focusing primarily on policy gradient methods and actor-critic networks, implemented and tested on the Hopper-v4 environment from OpenAI Gym.
+# 🧠 Reinforcement Learning Projects
 
-Each project implements a key RL research paper and includes a detailed walkthrough and description of the techniques used.
+This repository contains various **Reinforcement Learning (RL)** projects, primarily focused on **policy gradient methods** and **actor-critic networks**, implemented and tested on the `Hopper-v4` environment from OpenAI Gym.
 
-📄 Paper Implementations & Walkthroughs
+Each project is based on a notable research paper and includes a comprehensive walkthrough explaining the methodology, implementation, and performance.
 
-| Project                                | Paper                                                             | PDF Walkthrough                                                                                                                                                                 |
-| -------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. TD3**                             | *Addressing Function Approximation Error in Actor-Critic Methods* | \[`TD3_Walkthrough_and_Description.pdf`]\(./TD3\ Paper\ Implementation-Addressing\ Function\ Approximation\ Error\ in\ Actor-Critic\ Methods/Walkthrough\ and\ Description.pdf) |
-| **2. Noisy Nets**                      | *Noisy Networks for Exploration*                                  | \[`NoisyNets_Walkthrough_and_Description.pdf`]\(./Paper\ Implementation-Noisy\ Networks\ for\ Exploration/Walkthrough\ and\ Description.pdf)                                    |
-| **3. TD7 (Supervised Learning Twist)** | *Using Supervised Learning Techniques in RL*                      | \[`TD7_Walkthrough_and_Description.pdf`]\(./Paper\ Implementation-Using\ Supervised\ Learning\ Technique\ for\ learning-TD7/Walkthrough\ and\ Description.pdf)                  |
+---
 
-🛠️ Key Technologies
-Python 
+## 📄 Paper Implementations & Walkthroughs
 
-PyTorch 
+| 🔢 Project | 📘 Paper Title | 📎 Walkthrough |
+|-----------|----------------|----------------|
+| **1. TD3** | *Addressing Function Approximation Error in Actor-Critic Methods* | [Read PDF ➜](./TD3%20Paper%20Implementation-Addressing%20Function%20Approximation%20Error%20in%20Actor-Critic%20Methods/Walkthrough%20and%20Description.pdf) |
+| **2. Noisy Nets** | *Noisy Networks for Exploration* | [Read PDF ➜](./Paper%20Implementation-Noisy%20Networks%20for%20Exploration/Walkthrough%20and%20Description.pdf) |
+| **3. TD7 (Supervised Learning Twist)** | *Using Supervised Learning Techniques in RL* | [Read PDF ➜](./Paper%20Implementation-Using%20Supervised%20Learning%20Technique%20for%20learning-TD7/Walkthrough%20and%20Description.pdf) |
 
-OpenAI Gym 
+---
 
-Numpy
+## 🛠️ Key Technologies Used
 
-SCIKIT-LEARN
+- 🐍 **Python**
+- 🔥 **PyTorch**
+- 🏋️‍♂️ **OpenAI Gym**
+- ⚙️ **MuJoCo** (for physics simulation)
+- 📊 **Matplotlib** (for training curve visualization)
+- 📈 **Scikit-learn** (for supervised components)
+- 📚 **Stable-Baselines3** (for benchmarking against strong baselines)
+- 🔢 **NumPy**
 
-Stable-Baselines3 (for comparing against established baselines)
+---
 
-Matplotlib (for plotting training curves)
+## 🚀 Getting Started
 
-MUJOCO
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/Reinforcement-Learning-Projects.git
+   cd Reinforcement-Learning-Projects
+
 
